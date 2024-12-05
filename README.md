@@ -6,6 +6,12 @@ Nesse projeto, nosso grupo irá desenvolver uma aplicação CRUD com angular 18 
 
 Vamos nos concentrar na criação de um módulo CRUD para postagens, abrangendo funcionalidades de listagem, visualização, inserção, atualização e exclusão. Para facilitar, usaremos o serviço web JSONPlaceholder API. Eles fornecem todas as APIs necessárias, como listagem, visualização, criação, exclusão e atualização, tornando nosso trabalho mais simples.
 
+## Testes Automatizados com Cypress
+
+---
+
+Nosso projeto conta com testes automatizados com cypress. Na pasta `/cypress` estão presentes os resultados em Prints, juntamente com o código usado para a realização dos testes.
+
 ## Passos para operação CRUD no Angular 18
 
 ---

@@ -1,8 +1,8 @@
-# **🧑‍💻 Projeto Blog de postagens - CRUD com Angular 18**
+# **🧑‍💻 Projeto Blog Decode-se - CRUD com Angular 18**
 
 ---
 
-Nesse projeto, nosso grupo irá desenvolver uma aplicação CRUD com angular 18 (versão mais recente da ferramenta) juntamente com o Bootstrap 5. 
+Nesse projeto, nosso grupo irá desenvolver uma aplicação CRUD com angular 18 (versão mais recente da ferramenta) juntamente com o Bootstrap 5.
 
 Vamos nos concentrar na criação de um módulo CRUD para postagens, abrangendo funcionalidades de listagem, visualização, inserção, atualização e exclusão. Para facilitar, usaremos o serviço web JSONPlaceholder API. Eles fornecem todas as APIs necessárias, como listagem, visualização, criação, exclusão e atualização, tornando nosso trabalho mais simples.
 
@@ -550,7 +550,7 @@ export const appConfig: ApplicationConfig = {
 };
 ```
 
-e, finalmente: 
+e, finalmente:
 
 ### **Executar Aplicativo Angular**
 
@@ -562,7 +562,7 @@ ng serve
 
 Abra no navegador: http://localhost:4200/post
 
-*Link do Repositório:* 
+_Link do Repositório:_
 
 ## Equipe / Autores
 

@@ -1,0 +1,48 @@
+<div class="container">
+  <h1 class="title">Decode-se</h1>
+  <div class="btt-new">
+    <a href="#" routerLink="/post/create/" class="btn btn-success"
+      >Criar Nova Postagem</a
+    >
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Corpo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let post of posts">
+        <td>{{ post.id }}</td>
+        <td>{{ post.title }}</td>
+        <td>{{ post.body }}</td>
+        <td>
+          <div class="btn-group" role="group">
+            <a
+              href="#"
+              [routerLink]="['/post/', post.id, 'view']"
+              class="btn btn-info"
+              >Visualizar</a
+            >
+            <a
+              href="#"
+              [routerLink]="['/post/', post.id, 'edit']"
+              class="btn btn-primary"
+              >Editar</a
+            >
+            <button
+              type="button"
+              (click)="deletePost(post.id)"
+              class="btn btn-danger"
+            >
+              Deletar
+            </button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

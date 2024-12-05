@@ -1,0 +1,23 @@
+<div class="container">
+  <h1 class="title">Visualizar Postagem</h1>
+
+  <div class="row">
+    <div class="col">
+      <strong>ID:</strong>
+      <p>{{ post.id }}</p>
+    </div>
+
+    <div class="col">
+      <strong>Título:</strong>
+      <p>{{ post.title }}</p>
+    </div>
+  </div>
+
+  <div>
+    <strong>Conteúdo:</strong>
+    <p>{{ post.body }}</p>
+  </div>
+  <div class="btt">
+    <a href="#" routerLink="/post/index" class="btn btn-primary">Voltar</a>
+  </div>
+</div>

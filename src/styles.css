@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.title{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btt{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
